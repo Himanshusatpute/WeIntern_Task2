@@ -1,0 +1,21 @@
+Weather Forecast Command Line App (Python)
+A simple command line application built using Python that fetches real time weather data for any city using the OpenWeatherMap API.
+
+Features
+Takes city name as user input
+Displays temperature in Celsius
+Shows weather condition, humidity, and wind speed
+Handles invalid city names gracefully
+Uses only built-in Python libraries
+
+Tech Stack
+Python
+urllib.request
+json
+OpenWeatherMap API
+
+How It Works
+User enters a city name.
+The program sends a request to the OpenWeatherMap API.
+Weather data is fetched in JSON format.
+The data is parsed and displayed in a readable format.
